@@ -12,7 +12,7 @@ const interTight = Inter_Tight({
 
 export const metadata: Metadata = {
   title: "MessengerNepal - Bulk Messaging Services",
-  description: "Bulk messaging app providing services through WhatsApp, Viber,NTC, and Ncell. Send messages efficiently across multiple platforms in Nepal.",
+  description: "Easy, Secure, Reliable bulk SMS service provider in Nepal. All Nepal message campaining with fast delivery.",
 };
 
 export default function RootLayout({

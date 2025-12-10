@@ -42,13 +42,13 @@ export default function Navbar() {
             <Link href={localePrefix + "/"} className="flex items-center gap-2">
               <Image
                 src="/logo-mn.png"
-                alt="MessengerNepal"
+                alt="Messengernepal"
                 width={40}
                 height={40}
                 className="h-10 w-auto"
                 priority
               />
-              <span className="text-2xl font-semibold text-primary tracking-tight">MessengerNepal</span>
+              <span className="text-2xl font-semibold text-primary tracking-tight">Messengernepal</span>
             </Link>
           </div>
 

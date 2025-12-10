@@ -14,7 +14,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-          MessengerNepal ले सन्देश पठाउन सजिलो बनाउँछ। WhatsApp, Viber, NTC, र Ncell मार्फत तुरुन्तै थोक SMS पठाउनुहोस्, र एउटा क्लिकमा आफ्नो पहुँच बढाउनुहोस्।
+          Messengernepal ले सन्देश पठाउन सजिलो बनाउँछ। WhatsApp, Viber, NTC, र Ncell मार्फत तुरुन्तै थोक SMS पठाउनुहोस्, र एउटा क्लिकमा आफ्नो पहुँच बढाउनुहोस्।
         </p>
 
         {/* Buttons */}

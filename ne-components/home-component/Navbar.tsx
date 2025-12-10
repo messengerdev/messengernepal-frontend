@@ -48,7 +48,7 @@ export default function Navbar() {
                 className="h-10 w-auto"
                 priority
               />
-              <span className="text-2xl font-semibold text-primary tracking-tight">MessengerNepal</span>
+              <span className="text-2xl font-semibold text-primary tracking-tight">Messengernepal</span>
             </Link>
           </div>
 

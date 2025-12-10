@@ -49,7 +49,7 @@ export default function UseCases() {
             Uses of Our Bulk Messaging Platform
           </h2>
           <p className="text-lg text-gray-600">
-            Discover how different organizations and individuals can benefit from our messaging services
+            How are we useful & benificial for you?
           </p>
         </div>
         

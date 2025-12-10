@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 mb-10 pt-6">
           {/* Brand Column */}
           <div className="md:col-span-5 text-white">
-            <h2 className="text-2xl font-bold mb-4">MessengerNepal</h2>
+            <h2 className="text-2xl font-bold mb-4">Messengernepal</h2>
             <p className="text-white/80 mb-6 max-w-sm leading-relaxed text-sm">
               Simplify communication. Connect effortlessly.
             </p>
@@ -87,7 +87,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 text-center">
           <p className="text-white/40 text-xs tracking-wider uppercase">
-            © {new Date().getFullYear()} MessengerNepal
+            © {new Date().getFullYear()} Messengernepal
           </p>
         </div>
       </div>

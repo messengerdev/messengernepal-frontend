@@ -14,7 +14,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-          MessengerNepal makes messaging simple. Send bulk SMS through WhatsApp, Viber, NTC, and Ncell instantly, and grow your reach with as little as a click.
+          Messengernepal makes messaging easy, reliable, secure, fast and effictive with own tech and API. Send 1000+ SMS through WhatsApp, Viber, NTC, and Ncell in a click.
         </p>
 
         {/* Buttons */}
