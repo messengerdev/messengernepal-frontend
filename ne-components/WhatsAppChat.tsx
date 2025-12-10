@@ -10,7 +10,7 @@ export default function WhatsAppChat() {
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-10 right-6 z-50 flex items-center gap-3 px-4 py-3 bg-primary text-white rounded-full shadow-lg hover:bg-[#20BA5A] transition-colors group"
-      aria-label="Chat with us on WhatsApp"
+      aria-label="WhatsApp मार्फत हामीसँग कुरा गर्नुहोस्"
     >
       {/* WhatsApp Icon */}
       <svg
@@ -23,7 +23,7 @@ export default function WhatsAppChat() {
       </svg>
       
       {/* Text */}
-      <span className="text-sm font-medium hidden sm:block">Chat with Us</span>
+      <span className="text-sm font-medium hidden sm:block">हामीसँग कुरा गर्नुहोस्</span>
     </a>
   );
 }

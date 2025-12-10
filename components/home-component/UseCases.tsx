@@ -31,7 +31,7 @@ export default function UseCases() {
     },
     {
       icon: Heart,
-      title: "Shuvakamana Sandesd",
+      title: "Shuvakamana Sandesh",
       description: "Widely used by businesses, schools, colleges, hospitals, clinics, government offices, NGOs, restaurants, hotels, and individual entrepreneurs. Send warm greetings, festival wishes, and heartfelt messages to connect with your community and customers on special occasions."
     },
     {

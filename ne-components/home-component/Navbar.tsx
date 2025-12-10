@@ -58,19 +58,19 @@ export default function Navbar() {
               href={localePrefix + "/"} 
               className="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
             >
-              Home
+              गृहपृष्ठ
             </Link>
             <Link 
               href={localePrefix + "/features"} 
               className="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
             >
-              Features
+              सुविधाहरू
             </Link>
             <Link 
               href={localePrefix + "/about"} 
               className="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
             >
-              About
+              बारेमा
             </Link>
           </div>
 
