@@ -1,5 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Twitter, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import esewaLogo from "@/assets/esewa-logo.png";
+import fonepayLogo from "@/assets/fonepay-logo.png";
 
 export default function Footer() {
   return (
@@ -71,24 +74,52 @@ export default function Footer() {
           {/* Legal Links */}
           <div className="md:col-span-4 text-white">
             <h3 className="text-base font-semibold mb-4">Connect</h3>
-            <div className="flex gap-3 mb-4">
+            <div className="flex gap-3 mb-6">
                 <Link href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
                   <Facebook className="w-5 h-5 text-white" />
                 </Link>
             </div>
-            <div className="flex gap-3 text-xs">
-                <Link href="/privacy" className="text-white/60 hover:text-white transition-colors">Privacy</Link>
-                <span className="text-white/40">•</span>
-                <Link href="/terms" className="text-white/60 hover:text-white transition-colors">Terms</Link>
+            
+            {/* Payment Providers */}
+            <div>
+              <h3 className="text-base font-semibold mb-3">You can pay with</h3>
+              <div className="flex gap-2 items-center">
+                <div className="relative h-10 w-24">
+                  <Image
+                    src={esewaLogo}
+                    alt="eSewa"
+                    className="object-contain"
+                    width={96}
+                    height={40}
+                  />
+                </div>
+                <div className="relative h-10 w-24">
+                  <Image
+                    src={fonepayLogo}
+                    alt="Fonepay"
+                    className="object-contain"
+                    width={96}
+                    height={40}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 text-center">
-          <p className="text-white/40 text-xs tracking-wider uppercase">
-            © {new Date().getFullYear()} Messengernepal
-          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-xs">
+            <p className="text-white/40 tracking-wider uppercase">
+              © {new Date().getFullYear()} Messengernepal
+            </p>
+            <span className="text-white/40">•</span>
+            <div className="flex gap-3">
+              <Link href="/privacy" className="text-white/60 hover:text-white transition-colors">Privacy</Link>
+              <span className="text-white/40">•</span>
+              <Link href="/terms" className="text-white/60 hover:text-white transition-colors">Terms</Link>
+            </div>
+          </div>
         </div>
       </div>
       
