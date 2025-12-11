@@ -64,7 +64,7 @@ export default function UseCases() {
                 <div className="mb-4">
                   <IconComponent className="w-10 h-10 text-primary" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                <h3 className="text-xl font-bold text-primary mb-3">
                   {useCase.title}
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
