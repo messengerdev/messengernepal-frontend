@@ -25,7 +25,7 @@ export default function Hero() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <Link
-                href="/signup"
+                href="/login"
                 className="px-6 py-2.5 text-white bg-primary rounded-full hover:bg-primary/90 transition-colors shadow-md w-full sm:w-auto"
               >
                 Get Started

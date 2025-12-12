@@ -31,7 +31,7 @@ export default function HowToSend() {
           </p>
         </div>
         
-        <div className="flex gap-6 lg:gap-8">
+        <div className="flex flex-col md:flex-row gap-6 lg:gap-8">
           {steps.map((step, index) => {
             const IconComponent = step.icon;
             return (
