@@ -13,13 +13,13 @@ export default function Hero() {
           {/* Left Column - Content */}
           <div className="text-center lg:text-left">
             {/* Slogan */}
-            <h1 className="text-5xl font-bold text-primary mb-6 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">
               Turn bulk messaging into big opportunities and connectivity.
             </h1>
 
             {/* Description */}
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Messengernepal makes messaging easy, reliable, secure, fast and effictive with own tech and API. Send 1000+ SMS through WhatsApp, Viber, NTC, and Ncell in a click.
+            <p className="text-sm md:text-lg text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              Messengernepal makes messaging easy, reliable, secure and features. Send 1000+ SMS through WhatsApp, Viber, NTC, and Ncell in a click.
             </p>
 
             {/* Buttons */}

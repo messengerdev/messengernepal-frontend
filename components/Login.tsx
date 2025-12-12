@@ -73,7 +73,7 @@ export default function Login() {
           localStorage.setItem('user', JSON.stringify(data.data.user));
         }
         // Redirect to home page
-        router.push('/');
+        router.push('/admin');
       } else {
         // Handle errors
         if (response.status === 401) {

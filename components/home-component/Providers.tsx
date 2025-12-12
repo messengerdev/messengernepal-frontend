@@ -45,7 +45,7 @@ export default function Providers() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-3">
-            Our Service Providers
+            We are officially assosciated with
           </h2>
           <p className="text-lg text-gray-600">
             Send bulk messages through trusted platforms

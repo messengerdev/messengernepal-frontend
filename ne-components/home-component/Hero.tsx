@@ -13,12 +13,12 @@ export default function Hero() {
           {/* Left Column - Content */}
           <div className="text-center lg:text-left">
             {/* Slogan */}
-            <h1 className="text-5xl font-bold text-primary mb-6 leading-tight">
+            <h1 className=" text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">
               सामूहिक सञ्चारले निर्माण गर्ने विशद् अवसर र प्रगाढ संयोजकता अनुभव गर्नुहोस्।
             </h1>
 
             {/* Description */}
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-sm md:text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
               Messengernepal ले सन्देश पठाउन सजिलो बनाउँछ। WhatsApp, Viber, NTC, र Ncell मार्फत तुरुन्तै थोक SMS पठाउनुहोस्, र एउटा क्लिकमा आफ्नो पहुँच बढाउनुहोस्।
             </p>
 
