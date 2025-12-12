@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Rocket, Timer } from "lucide-react";
+import { ArrowLeft, Timer } from "lucide-react";
 
 interface ComingSoonProps {
   title: string;

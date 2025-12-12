@@ -27,7 +27,7 @@ export default function HowToSend() {
             How to Send Bulk SMS in Nepal?
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Sending messages to many people in Nepal is easy with our platform. Follow these three simple steps to reach thousands in minutes.
+            Sending messages to many people in Nepal is easy with our platform. Follow these easy steps to reach thousands in minutes.
           </p>
         </div>
         

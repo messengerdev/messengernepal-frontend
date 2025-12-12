@@ -91,7 +91,7 @@ export default function Register() {
           localStorage.setItem('user', JSON.stringify(data.data.user));
         }
         // Redirect to dashboard or home page
-        router.push('/');
+        router.push('/admin');
       } else {
         // Handle errors
         if (response.status === 409) {
